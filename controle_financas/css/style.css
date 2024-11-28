@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container >  */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/*fundo roxo*/
+.header {
+    background-color: #6f42c1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 0;
+    width: 100vw;
+    position: relative;
+}
+
+.top-section {
+    padding: 0;
+}
+
+/*notinhas dos meses*/
+.main-cards {
+    margin-top: -40px;
+    padding-bottom: 30px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-header {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*cor das notinhas de acordo com o saldo*/
+.bg-success {
+    background-color: rgb(93, 231, 118) !important;
+}
+
+.bg-danger {
+    background-color: rgb(255, 96, 96) !important;
+}
+
+.bg-warning {
+    background-color: rgb(247, 241, 68) !important;
+}
+
+.container {
+    padding: 0;
+}
+
